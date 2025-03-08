@@ -375,9 +375,7 @@ rules:
   - DOMAIN-SUFFIX,juejin.cn,DIRECT
   - DOMAIN-SUFFIX,onrender.com,DIRECT
   - DOMAIN-SUFFIX,baoyu.io,DIRECT  
-  - DOMAIN-SUFFIX,s3.tebi.io,DIRECT
   - DOMAIN-SUFFIX,aiven.io,DIRECT
-  - DOMAIN-SUFFIX,teracloud.jp,DIRECT
   - DOMAIN-SUFFIX,data.microsoft.com,DIRECT
   - PROCESS-NAME,OneDrive,DIRECT
   - PROCESS-NAME,OneDriveUpdater,DIRECT 

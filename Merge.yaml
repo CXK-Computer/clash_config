@@ -376,7 +376,6 @@ rules:
   - DOMAIN-SUFFIX,onrender.com,DIRECT
   - DOMAIN-SUFFIX,baoyu.io,DIRECT  
   - DOMAIN-SUFFIX,s3.tebi.io,DIRECT
-  - DOMAIN-SUFFIX,2api.filegear-sg.me,DIRECT
   - DOMAIN-SUFFIX,aiven.io,DIRECT
   - DOMAIN-SUFFIX,teracloud.jp,DIRECT
   - DOMAIN-SUFFIX,data.microsoft.com,DIRECT

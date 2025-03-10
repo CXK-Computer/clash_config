@@ -112,20 +112,9 @@ proxy-providers:
     url: 'https://xn--ehq91fquq.com/s/b19a49a47a95eb8bca594ff52904f689'
     <<: *NodeParam
   Node-2:
-    url: 'https://cfj.chuifengji.top/cfj/vip/client/subscribe?token=83d152ebd0bfab976df0e2662ebeeaa7'
+    url: 'https://aimanman.me/s/71de186243563d6c2152c5edca225d26'
     <<: *NodeParam
-  Node-3:
-    url: 'https://jc.wuxianjc.top/api/v1/client/subscribe?token=458d763156a153a4f1c9984c45a74ab1'
-    <<: *NodeParam
-  Node-4:
-    url: 'https://qidijichang.xyz/api/configqd?token=5cb3d8869b94cf3d5e667ed9d97c5c69'
-    <<: *NodeParam  
-  Node-5:
-    url: 'https://xn--9krt36k.com/s/c300d42090d0af955600b00a5585567a'
-    <<: *NodeParam  
-  Node-6:
-    url: 'https://laosijicc.top/lsj/vip/client/subscribe?token=8f8c3d020b22a8f10c30ffb5840ae95a'
-    <<: *NodeParam
+
 
 
 # 节点筛选
@@ -391,8 +380,8 @@ rules:
   - RULE-SET,stream_non_ip,🎯 节点选择
   - RULE-SET,telegram_non_ip,✈️ 电报信息
   - RULE-SET,apple_cdn,DIRECT
-  - RULE-SET,download_domainset,🎯 节点选择
-  - RULE-SET,download_non_ip,🎯 节点选择
+  - RULE-SET,download_domainset,DIRECT
+  - RULE-SET,download_non_ip,DIRECT
   - RULE-SET,github_non_ip,⌨️ Github
   - RULE-SET,microsoft_cdn_non_ip,DIRECT
   - RULE-SET,apple_cn_non_ip,DIRECT  

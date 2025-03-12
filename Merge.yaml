@@ -109,7 +109,7 @@ proxy-providers:
   #   url: 'https://raw.githubusercontent.com/ivwv/chromego_convert/main/outputs/clash_meta_warp.yaml'
   #   <<: *NodeParam
   Node-1:
-    url: 'https://xn--ehq91fquq.com/s/b19a49a47a95eb8bca594ff52904f689'
+    url: 'https://sub.xn--dlqv7fg3fdmt.live/s/b21a1c795ebd488095b0edfcb55afccd'
     <<: *NodeParam
   Node-2:
     url: 'https://aimanman.me/s/71de186243563d6c2152c5edca225d26'

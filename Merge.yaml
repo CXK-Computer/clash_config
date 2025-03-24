@@ -105,25 +105,18 @@ tun:
 NodeParam: &NodeParam {type: http, interval: 86400, health-check: {enable: true, url: 'http://www.gstatic.com/generate_204', interval: 300}}
 # 节点订阅
 proxy-providers:
-  # GO:
-  #   url: 'https://raw.githubusercontent.com/ivwv/chromego_convert/main/outputs/clash_meta_warp.yaml'
+  # Node-1:
+  #   url: 'https://client-sub.jingfan.life/s/aba6d6970137773112cf6a8ec5b0b4cf'
   #   <<: *NodeParam
-  Node-1:
-    url: 'https://submit.xz61.cn:23443/api/v1/client/subscribe?token=1e320954eb22331d49af58913cf5bf69'
-    <<: *NodeParam
   Node-2:
-    url: 'https://cloud.gougou.live/s/b24f2c80932db6932e6cec6694b63b61'
+    url: 'https://bp123.xyz/api/bp123?token=f297294903c2a39aa546d71f18b3bc65'
     <<: *NodeParam
   Node-3:
     url: 'https://weget.cdn.cache.wentian.org/s/ef2c9b814ad6d2c3e1d09586eb06d765'
     <<: *NodeParam
   Node-4:
-    url: 'https://dianfeng.jiumaojiu.net/s/5bd086fd2536d0878cd8622b7c2927ed'
+    url: 'https://liangxin.xyz/api/v1/liangxin?OwO=174bdccd0a4757810bb1ca449b2cfc24'
     <<: *NodeParam
-  Node-6:
-    url: 'https://xn--4oq11ryli3rg.com/s/0a8892e703bc0b25976f978f6ececac6'
-    <<: *NodeParam
-  
 
 # 节点筛选
 FilterHK: &FilterHK '^(?=.*(香港|HK|Hong|🇭🇰))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$'

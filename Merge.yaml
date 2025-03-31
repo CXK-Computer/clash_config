@@ -105,9 +105,9 @@ tun:
 NodeParam: &NodeParam {type: http, interval: 86400, health-check: {enable: true, url: 'http://www.gstatic.com/generate_204', interval: 300}}
 # 节点订阅
 proxy-providers:
-  # Node-1:
-  #   url: 'https://client-sub.jingfan.life/s/aba6d6970137773112cf6a8ec5b0b4cf'
-  #   <<: *NodeParam
+  Node-1:
+    url: 'https://sub.xn--4gqu8tnud62o.com/s/1ed2e833146681da083cd256bcd95191'
+    <<: *NodeParam
   Node-2:
     url: 'https://bp123.xyz/api/bp123?token=f297294903c2a39aa546d71f18b3bc65'
     <<: *NodeParam
@@ -117,6 +117,9 @@ proxy-providers:
   Node-4:
     url: 'https://liangxin.xyz/api/v1/liangxin?OwO=174bdccd0a4757810bb1ca449b2cfc24'
     <<: *NodeParam
+  # Node-5:
+  #   url: 'https://sub.xn--mes91t7ofgnw.com/s/e1309bef6f7700f2134c877042aee72e'
+  #   <<: *NodeParam
 
 # 节点筛选
 FilterHK: &FilterHK '^(?=.*(香港|HK|Hong|🇭🇰))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$'

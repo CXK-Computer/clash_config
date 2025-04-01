@@ -114,9 +114,9 @@ proxy-providers:
   Node-3:
     url: 'https://weget.cdn.cache.wentian.org/s/ef2c9b814ad6d2c3e1d09586eb06d765'
     <<: *NodeParam
-  Node-4:
-    url: 'https://liangxin.xyz/api/v1/liangxin?OwO=174bdccd0a4757810bb1ca449b2cfc24'
-    <<: *NodeParam
+  # Node-4:
+  #   url: 'https://liangxin.xyz/api/v1/liangxin?OwO=174bdccd0a4757810bb1ca449b2cfc24'
+  #   <<: *NodeParam
   # Node-5:
   #   url: 'https://sub.xn--mes91t7ofgnw.com/s/e1309bef6f7700f2134c877042aee72e'
   #   <<: *NodeParam

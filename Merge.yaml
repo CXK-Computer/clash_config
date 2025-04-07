@@ -106,20 +106,21 @@ NodeParam: &NodeParam {type: http, interval: 86400, health-check: {enable: true,
 # 节点订阅
 proxy-providers:
   Node-1:
-    url: 'https://sub.xn--4gqu8tnud62o.com/s/1ed2e833146681da083cd256bcd95191'
+    url: 'https://dianfeng.jiumaojiu.net/s/d0f9e22a23977308e1d11591e0d90201'
     <<: *NodeParam
-  Node-2:
-    url: 'https://bp123.xyz/api/bp123?token=f297294903c2a39aa546d71f18b3bc65'
-    <<: *NodeParam
+  # Node-2:
+  #   url: 'https://52pokemon.xz61.cn/api/v1/client/subscribe?token=0987a0ab00f8ac37814a47688977c6a6'
+  #   <<: *NodeParam
   Node-3:
+    url: 'https://cloud.jisuba.live/s/c9b747534ff4284ba1ab204786b68fc5'
+    <<: *NodeParam
+  Node-4:
     url: 'https://weget.cdn.cache.wentian.org/s/ef2c9b814ad6d2c3e1d09586eb06d765'
     <<: *NodeParam
-  # Node-4:
-  #   url: 'https://liangxin.xyz/api/v1/liangxin?OwO=174bdccd0a4757810bb1ca449b2cfc24'
-  #   <<: *NodeParam
-  # Node-5:
-  #   url: 'https://sub.xn--mes91t7ofgnw.com/s/e1309bef6f7700f2134c877042aee72e'
-  #   <<: *NodeParam
+  Node-5:
+    url: 'https://sub.xn--4gqu8tnud62o.com/s/4908e0f07cbaad57086de83cc6701222'
+    <<: *NodeParam
+
 
 # 节点筛选
 FilterHK: &FilterHK '^(?=.*(香港|HK|Hong|🇭🇰))^(?!.*(网站|地址|剩余|过期|时间|有效|网址|禁止|邮箱|发布|客服|订阅|节点)).*$'

@@ -375,6 +375,7 @@ rule-providers:
 # 分流规则
 rules:
   ### 自定义规则
+  - DOMAIN-SUFFIX,piclist.cn,DIRECT
   - DOMAIN-SUFFIX,juejin.cn,DIRECT
   - DOMAIN-SUFFIX,onrender.com,DIRECT
   - DOMAIN-SUFFIX,baoyu.io,DIRECT  

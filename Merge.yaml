@@ -102,7 +102,7 @@ tun:
   # route-exclude-address: ["192.168.110.0/24"]
 
 ### 节点配置
-NodeParam: &NodeParam {type: http, interval: 86400, health-check: {enable: true, url: 'http://www.gstatic.com/generate_204', interval: 300}}
+NodeParam: &NodeParam {type: http, interval: 86400, health-check: {enable: true, url: 'http://www.gstatic.com/generate_204', interval: 3000}}
 # 节点订阅
 proxy-providers:
   Node-1:
@@ -117,7 +117,6 @@ proxy-providers:
   Node-2:
     url: 'https://pianyi.sub.sub.subsub123456789.com/answer/land?token=6a4b3106915b360989b7bdd1cecf8416'
     <<: *NodeParam
-
 
 
 
@@ -375,6 +374,7 @@ rule-providers:
 # 分流规则
 rules:
   ### 自定义规则
+  - DOMAIN-SUFFIX,chentao0717.cn,DIRECT
   - DOMAIN-SUFFIX,piclist.cn,DIRECT
   - DOMAIN-SUFFIX,juejin.cn,DIRECT
   - DOMAIN-SUFFIX,onrender.com,DIRECT

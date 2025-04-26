@@ -106,7 +106,7 @@ NodeParam: &NodeParam {type: http, interval: 86400, health-check: {enable: true,
 # 节点订阅
 proxy-providers:
   Node-1:
-    url: 'https://imperialb.in/r/fhc00bgc'
+    url: 'https://imperialb.in/r/evcmpwzc'
     <<: *NodeParam
   Node-4:
     url: 'https://xn--9kqx21a0sv.com/api/bpyun?token=0cb6f300a91136b6d87afba6cec93df6'
